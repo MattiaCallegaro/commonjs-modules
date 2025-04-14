@@ -4,6 +4,7 @@ const hobbies = require("./hobbies.js");
 
 const user = ()=>{
     return{
-        
+        fullName, hobbies
     }
 }
+console.log(user(fullName,hobbies))
