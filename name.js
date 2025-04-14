@@ -27,13 +27,24 @@
 
 
 
-let firstName = "Mattia"
+// let firstName = "Mattia"
+// let lastName = "Callegaro"
+
+// const fullName = (firstName, lastName) =>{
+//     return firstName +" "+ lastName
+// }
+
+// console.log(fullName(firstName,lastName))
+
+let firstName="Mattia"
 let lastName = "Callegaro"
 
-const fullName = (firstName, lastName) =>{
-    return firstName +" "+ lastName
-}
-
+const fullName=(firstName, lastName)=>{
+    return{
+        firstName:"Mattia",
+        lastName:"Callegaro"
+    };
+};
 console.log(fullName(firstName,lastName))
 
 module.exports = fullName
