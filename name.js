@@ -25,8 +25,6 @@
 
 // console.log(fullName)`
 
-
-
 // let firstName = "Mattia"
 // let lastName = "Callegaro"
 
@@ -36,15 +34,22 @@
 
 // console.log(fullName(firstName,lastName))
 
+
+
+
+//prima mi dichiaro le variabili assegnandogli un valore
 let firstName="Mattia"
 let lastName = "Callegaro"
-
+//mi creo una funzione che mi ritorna un oggetto con i valori dichiarati fuori dalla funzione
 const fullName=(firstName, lastName)=>{
     return{
         firstName:"Mattia",
         lastName:"Callegaro"
     };
 };
+
+//stampo in console
 console.log(fullName(firstName,lastName))
 
+//esporto
 module.exports = fullName
